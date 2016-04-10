@@ -1,0 +1,120 @@
+.titt {
+  font-size:28px;
+  color: black;
+  text-align: center;
+}
+
+p {
+
+  font-size: 16px;
+  margin: 35px 15px 30px 15px;
+
+}
+
+
+div#container1 {
+  
+  width: 520px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 10px;
+  background-color: gray;
+  color: white;
+  box-sizing: border-box;
+}
+
+
+div#container2 {
+  
+  width: 520px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 10px;
+  background-color: gray;
+  color: white;
+  box-sizing: border-box;
+}
+
+div#container3 {
+  
+  width: 520px;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 10px;
+  background-color: gray;
+  color: white;
+  box-sizing: border-box;
+}
+
+#subtitt {
+
+  width: 90px;
+  height: 24px;
+  border: 1px solid black;
+  margin: 0px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #952626;
+  color: white;
+  position: relative;
+  float: right;
+  
+
+}
+
+/******large device******/
+
+@media (min-width: 992px) 
+
+{
+  div#container1 {
+    width: 29%;
+    float: left;
+
+  }
+
+   div#container2 {
+    width: 29%;
+    float: left;
+}
+   div#container3 {
+    width: 29%;
+    float: left;
+}
+}
+
+/******medium device******/
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+div#container1 {
+    width: 44%;
+    float: left;
+}
+ div#container2 {
+    width: 44%;
+    float: left;
+}
+ div#container3 {
+    width: 91%;
+    float: left;
+}
+}
+
+/******small device******/
+
+@media (max-width: 767px) {
+
+  #soccer {
+    width: 90%;
+    float: left;
+}
+  #tennis {
+    width: 90%;
+    clear: left;
+}
+  #basketball {
+    width: 90%;
+    float: left;
+}
+}
